@@ -66,6 +66,10 @@
   margin: 0;
   padding: 0; }
 
+img {
+  width: inherit;
+  height: auto; }
+
 body {
   background-color: grey; }
 
@@ -74,5 +78,10 @@ body {
   margin: 10px; }
 
 .content {
-  width: 80%;
+  width: 60%;
   margin: auto; }
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #000; }
