@@ -84,8 +84,27 @@ body {
     .content {
       width: 70%; } }
 
-.section {
+section {
   padding: 10px 20px; }
+
+nav {
+  margin: 10px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9); }
+  @media only screen and (min-width: 890px) {
+    nav {
+      display: block; } }
+  nav ul {
+    list-style-type: none;
+    padding: 0; }
+    nav ul li a {
+      display: block;
+      padding: 10px 20px; }
+      nav ul li a:hover {
+        background-color: #d3d3d3; }
 
 a:link, a:visited {
   color: #666;
