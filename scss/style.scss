@@ -1,5 +1,7 @@
+// Enable mobile responsiveness
 @import 'responsive';
 
+// Main body CSS
 * {margin: 0; padding: 0;}
 
 body {
@@ -24,6 +26,37 @@ section {
   padding: 10px 20px;
 }
 
+// Site link colours
+a:link, a:visited {color: #666; text-decoration: none;}
+a:hover, a:focus, a:active {color: #000;}
+
+// Headings, paragraphs and lists
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+h4 {text-align: center;}
+
+p {padding: 3px 0;}
+
+ul {
+  padding: 3px 0 2px 17px;
+  li {padding: 3px 0;}
+}
+
+// Contact section styles
+#contact {
+  h1 {text-align: center; margin-bottom: 3px;}
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.bold {font-weight: bold;}
+
+// Styles for desktop nav bar. Remove if not utilised.
 nav {
   width: 14%;
   margin: 10px;
@@ -44,31 +77,5 @@ nav {
     }
   }
 }
-
-a:link, a:visited {color: #666; text-decoration: none;}
-a:hover, a:focus, a:active {color: #000;}
-
-h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-  border-bottom: 1px solid #000;
-}
-
-h4 {text-align: center;}
-
-p {padding: 3px 0;}
-
-ul {
-  padding: 3px 0 2px 17px;
-  li {padding: 3px 0;}
-}
-
-#contact {
-  h1 {text-align: center; margin-bottom: 3px;}
-  max-width: 300px;
-  margin: auto;
-  text-align: left;
-}
-
-.bold {font-weight: bold;}
+// jQuery tag for highlighting active sections nav bar.
 .active {background-color: #d3d3d3;}
