@@ -35,6 +35,7 @@ h3 {
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 1px solid #000;
+  margin-bottom: 5px;
 }
 
 h4 {text-align: center;}
@@ -49,10 +50,12 @@ ul {
 // Contact section styles
 #contact {
   h1 {text-align: center; margin-bottom: 3px;}
-  max-width: 300px;
+  max-width: 350px;
   margin: auto;
   text-align: left;
 }
+
+.job, .edu { margin: 25px 0;}
 
 .bold {font-weight: bold;}
 
