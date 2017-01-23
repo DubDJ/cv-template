@@ -1,5 +1,8 @@
 ## Synopsis
 
+![CV Template Screens]
+(http://hassancorrigan.com/img/project-img-2.png)
+
 A simple one-page CV template webpage. Built with HTML5 and CSS3 with an optional jQuery navigation bar. Lightweight code and simple document styled page.
 Edit the code and add your own details, create your own online CV.
 
